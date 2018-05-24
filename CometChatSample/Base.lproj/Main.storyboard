@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CometChatSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cometchat_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="H3t-Xf-ex8">
+                                <rect key="frame" x="137" y="70" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Rsq-D6-BlW"/>
+                                    <constraint firstAttribute="height" constant="100" id="ubg-KK-TKX"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dRc-1q-qh0" userLabel="buttonsView">
+                                <rect key="frame" x="-0.5" y="220" width="375" height="447"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJA-aA-TRY" userLabel="btnInitialize">
+                                        <rect key="frame" x="30" y="100" width="315" height="30"/>
+                                        <color key="backgroundColor" red="0.72156862749999995" green="0.72941176470000002" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="3EZ-XK-BTW"/>
+                                        </constraints>
+                                        <state key="normal" title="INITIALIZE CHAT">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="initializeChat" destination="BYZ-38-t0r" eventType="touchUpInside" id="sw4-VK-SNa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dj-vk-jB8" userLabel="btnLogin1">
+                                        <rect key="frame" x="30" y="180" width="157.5" height="30"/>
+                                        <color key="backgroundColor" red="0.72156862749999995" green="0.72941176470000002" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="dSw-qA-H13"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <color key="tintColor" red="0.72156862749999995" green="0.72941176470000002" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="LOGIN AS SUPERHERO1">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="loginWithSuperHero1" destination="BYZ-38-t0r" eventType="touchUpInside" id="d71-vk-E9a"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bjl-1T-4bu" userLabel="btnLogin2">
+                                        <rect key="frame" x="207" y="180" width="138" height="30"/>
+                                        <color key="backgroundColor" red="0.72156862749999995" green="0.72941176470000002" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="khh-J5-ho7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                        <state key="normal" title="LOGIN AS SUPERHERO2">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="loginWithSuperHero2" destination="BYZ-38-t0r" eventType="touchUpInside" id="X77-Fy-YfP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21c-S7-eaM" userLabel="btnLaunch">
+                                        <rect key="frame" x="29.5" y="260" width="315.5" height="30"/>
+                                        <color key="backgroundColor" red="0.72156862749999995" green="0.72941176470000002" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="eK3-Ja-asN"/>
+                                        </constraints>
+                                        <state key="normal" title="LAUNCH COMETCHAT">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="launchChat" destination="BYZ-38-t0r" eventType="touchUpInside" id="rmR-d7-GPZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="21c-S7-eaM" firstAttribute="trailing" secondItem="bjl-1T-4bu" secondAttribute="trailing" id="2hh-eu-XQG"/>
+                                    <constraint firstItem="bjl-1T-4bu" firstAttribute="centerY" secondItem="7dj-vk-jB8" secondAttribute="centerY" id="7hF-TV-LFU"/>
+                                    <constraint firstItem="eJA-aA-TRY" firstAttribute="leading" secondItem="dRc-1q-qh0" secondAttribute="leading" constant="30" id="8bq-0I-b8e"/>
+                                    <constraint firstItem="7dj-vk-jB8" firstAttribute="leading" secondItem="dRc-1q-qh0" secondAttribute="leading" constant="30" id="DWs-CC-gAK"/>
+                                    <constraint firstItem="7dj-vk-jB8" firstAttribute="width" secondItem="eJA-aA-TRY" secondAttribute="width" multiplier="0.5" id="Egt-DW-xGK"/>
+                                    <constraint firstItem="7dj-vk-jB8" firstAttribute="top" secondItem="eJA-aA-TRY" secondAttribute="bottom" constant="50" id="Gvv-aV-Jfu"/>
+                                    <constraint firstItem="21c-S7-eaM" firstAttribute="top" secondItem="7dj-vk-jB8" secondAttribute="bottom" constant="50" id="N7g-fy-yaF"/>
+                                    <constraint firstItem="bjl-1T-4bu" firstAttribute="trailing" secondItem="eJA-aA-TRY" secondAttribute="trailing" id="dJ1-wk-Axk"/>
+                                    <constraint firstItem="21c-S7-eaM" firstAttribute="leading" secondItem="7dj-vk-jB8" secondAttribute="leading" id="dvT-uG-iiz"/>
+                                    <constraint firstAttribute="trailing" secondItem="eJA-aA-TRY" secondAttribute="trailing" constant="30" id="lJN-yN-tBk"/>
+                                    <constraint firstItem="eJA-aA-TRY" firstAttribute="top" secondItem="dRc-1q-qh0" secondAttribute="top" constant="100" id="qRo-lO-7Kk"/>
+                                    <constraint firstItem="bjl-1T-4bu" firstAttribute="leading" secondItem="7dj-vk-jB8" secondAttribute="trailing" constant="19.5" id="uZe-Mj-CAN"/>
+                                </constraints>
+                            </view>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="xyG-NI-Vql">
+                                <rect key="frame" x="177" y="210" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="H3t-Xf-ex8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="7dP-bu-fu5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="dRc-1q-qh0" secondAttribute="leading" id="Fix-1J-apR"/>
+                            <constraint firstItem="xyG-NI-Vql" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="HDS-ab-9TH"/>
+                            <constraint firstItem="dRc-1q-qh0" firstAttribute="top" secondItem="H3t-Xf-ex8" secondAttribute="bottom" constant="50" id="aeY-Ar-mSj"/>
+                            <constraint firstItem="H3t-Xf-ex8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="brM-RO-teM"/>
+                            <constraint firstItem="xyG-NI-Vql" firstAttribute="top" secondItem="H3t-Xf-ex8" secondAttribute="bottom" constant="40" id="kB0-07-q1B"/>
+                            <constraint firstItem="dRc-1q-qh0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="rtY-ZR-xMu"/>
+                            <constraint firstItem="dRc-1q-qh0" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ucc-og-k3P"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnInitializeChat" destination="eJA-aA-TRY" id="nwB-P4-3B1"/>
+                        <outlet property="btnLaunchChat" destination="21c-S7-eaM" id="Cbp-1T-sJ7"/>
+                        <outlet property="btnLoginSuperHero1" destination="7dj-vk-jB8" id="OPZ-jF-UWB"/>
+                        <outlet property="btnLoginSuperHero2" destination="bjl-1T-4bu" id="BdX-o9-BgS"/>
+                        <outlet property="pbLoading" destination="xyG-NI-Vql" id="Sdf-wt-D1O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2660" y="-863"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cometchat_logo.png" width="512" height="512"/>
+    </resources>
+</document>
