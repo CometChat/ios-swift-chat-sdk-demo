@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D019F9C20B6F23C00AA9041 /* cometchat_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D019F9B20B6F23B00AA9041 /* cometchat_logo.png */; };
+		1D0EA47920B21A240001890C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0EA47820B21A240001890C /* AppDelegate.swift */; };
+		1D0EA47B20B21A240001890C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0EA47A20B21A240001890C /* ViewController.swift */; };
+		1D0EA47E20B21A240001890C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0EA47C20B21A240001890C /* Main.storyboard */; };
+		1D0EA48020B21A250001890C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0EA47F20B21A250001890C /* Assets.xcassets */; };
+		1D0EA48320B21A250001890C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0EA48120B21A250001890C /* LaunchScreen.storyboard */; };
+		1D2A973E20B235C400E2B217 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2A973D20B235C400E2B217 /* SystemConfiguration.framework */; };
+		1D2A974020B235CF00E2B217 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2A973F20B235CF00E2B217 /* MobileCoreServices.framework */; };
+		1D2A974220B235D900E2B217 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2A974120B235D900E2B217 /* CoreGraphics.framework */; };
+		1D2A974420B235E300E2B217 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2A974320B235E300E2B217 /* CFNetwork.framework */; };
+		1D2A974620B235F000E2B217 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2A974520B235F000E2B217 /* libxml2.tbd */; };
+		1D2A974820B235FC00E2B217 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2A974720B235FC00E2B217 /* libz.tbd */; };
+		1D2A974A20B2360800E2B217 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2A974920B2360800E2B217 /* libsqlite3.tbd */; };
+		AD6DD94B1ACA1BCFDDAB17AF /* Pods_CometChatSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237A589A8B7CAB335AB76AFF /* Pods_CometChatSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11426E8221D1653BCCEAFFD8 /* Pods-CometChatSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CometChatSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CometChatSample/Pods-CometChatSample.release.xcconfig"; sourceTree = "<group>"; };
+		1D019F9B20B6F23B00AA9041 /* cometchat_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cometchat_logo.png; sourceTree = "<group>"; };
+		1D0EA47520B21A240001890C /* CometChatSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CometChatSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0EA47820B21A240001890C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D0EA47A20B21A240001890C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D0EA47D20B21A240001890C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D0EA47F20B21A250001890C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D0EA48220B21A250001890C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D0EA48420B21A250001890C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D2A973D20B235C400E2B217 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1D2A973F20B235CF00E2B217 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1D2A974120B235D900E2B217 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D2A974320B235E300E2B217 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1D2A974520B235F000E2B217 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		1D2A974720B235FC00E2B217 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1D2A974920B2360800E2B217 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		237A589A8B7CAB335AB76AFF /* Pods_CometChatSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CometChatSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2224D6CD2619C3F21AE30F9 /* Pods-CometChatSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CometChatSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CometChatSample/Pods-CometChatSample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D0EA47220B21A230001890C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2A974A20B2360800E2B217 /* libsqlite3.tbd in Frameworks */,
+				1D2A974820B235FC00E2B217 /* libz.tbd in Frameworks */,
+				1D2A974620B235F000E2B217 /* libxml2.tbd in Frameworks */,
+				1D2A974420B235E300E2B217 /* CFNetwork.framework in Frameworks */,
+				1D2A974220B235D900E2B217 /* CoreGraphics.framework in Frameworks */,
+				1D2A974020B235CF00E2B217 /* MobileCoreServices.framework in Frameworks */,
+				1D2A973E20B235C400E2B217 /* SystemConfiguration.framework in Frameworks */,
+				AD6DD94B1ACA1BCFDDAB17AF /* Pods_CometChatSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D0EA46C20B21A230001890C = {
+			isa = PBXGroup;
+			children = (
+				1D0EA47720B21A240001890C /* CometChatSample */,
+				1D0EA47620B21A240001890C /* Products */,
+				D490C9F322E3EF5DE18D1175 /* Pods */,
+				9204D97BB2DB11C6BE649134 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D0EA47620B21A240001890C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D0EA47520B21A240001890C /* CometChatSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D0EA47720B21A240001890C /* CometChatSample */ = {
+			isa = PBXGroup;
+			children = (
+				1D019F9B20B6F23B00AA9041 /* cometchat_logo.png */,
+				1D0EA47820B21A240001890C /* AppDelegate.swift */,
+				1D0EA47A20B21A240001890C /* ViewController.swift */,
+				1D0EA47C20B21A240001890C /* Main.storyboard */,
+				1D0EA47F20B21A250001890C /* Assets.xcassets */,
+				1D0EA48120B21A250001890C /* LaunchScreen.storyboard */,
+				1D0EA48420B21A250001890C /* Info.plist */,
+			);
+			path = CometChatSample;
+			sourceTree = "<group>";
+		};
+		9204D97BB2DB11C6BE649134 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D2A974920B2360800E2B217 /* libsqlite3.tbd */,
+				1D2A974720B235FC00E2B217 /* libz.tbd */,
+				1D2A974520B235F000E2B217 /* libxml2.tbd */,
+				1D2A974320B235E300E2B217 /* CFNetwork.framework */,
+				1D2A974120B235D900E2B217 /* CoreGraphics.framework */,
+				1D2A973F20B235CF00E2B217 /* MobileCoreServices.framework */,
+				1D2A973D20B235C400E2B217 /* SystemConfiguration.framework */,
+				237A589A8B7CAB335AB76AFF /* Pods_CometChatSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D490C9F322E3EF5DE18D1175 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2224D6CD2619C3F21AE30F9 /* Pods-CometChatSample.debug.xcconfig */,
+				11426E8221D1653BCCEAFFD8 /* Pods-CometChatSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D0EA47420B21A230001890C /* CometChatSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0EA48720B21A250001890C /* Build configuration list for PBXNativeTarget "CometChatSample" */;
+			buildPhases = (
+				92B381174D2B7C39BBDB0CF6 /* [CP] Check Pods Manifest.lock */,
+				1D0EA47120B21A230001890C /* Sources */,
+				1D0EA47220B21A230001890C /* Frameworks */,
+				1D0EA47320B21A230001890C /* Resources */,
+				0F01A6E155351DF72B3132B7 /* [CP] Embed Pods Frameworks */,
+				DA09235FDB1B7E842ECE14C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CometChatSample;
+			productName = CometChatSample;
+			productReference = 1D0EA47520B21A240001890C /* CometChatSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D0EA46D20B21A230001890C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Inscripts (I) Private Limited";
+				TargetAttributes = {
+					1D0EA47420B21A230001890C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 1D0EA47020B21A230001890C /* Build configuration list for PBXProject "CometChatSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D0EA46C20B21A230001890C;
+			productRefGroup = 1D0EA47620B21A240001890C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D0EA47420B21A230001890C /* CometChatSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D0EA47320B21A230001890C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D019F9C20B6F23C00AA9041 /* cometchat_logo.png in Resources */,
+				1D0EA48320B21A250001890C /* LaunchScreen.storyboard in Resources */,
+				1D0EA48020B21A250001890C /* Assets.xcassets in Resources */,
+				1D0EA47E20B21A240001890C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F01A6E155351DF72B3132B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CometChatSample/Pods-CometChatSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CometChatSample/Pods-CometChatSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B381174D2B7C39BBDB0CF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CometChatSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA09235FDB1B7E842ECE14C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CometChatSample/Pods-CometChatSample-resources.sh",
+				"${PODS_ROOT}/MessageSDKFramework/MessageSDKFramework/MessageSDKFramework.bundle",
+				"${PODS_ROOT}/cometchat-ui/cometchat-ui/cometchat-ui.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MessageSDKFramework.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cometchat-ui.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CometChatSample/Pods-CometChatSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D0EA47120B21A230001890C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0EA47B20B21A240001890C /* ViewController.swift in Sources */,
+				1D0EA47920B21A240001890C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D0EA47C20B21A240001890C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D0EA47D20B21A240001890C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D0EA48120B21A250001890C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D0EA48220B21A250001890C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D0EA48520B21A250001890C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "CometChatSample/Pods/cometchat-ui/cometchat-ui/cometchat-ui.framework/Versions/A/Headers/CometChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D0EA48620B21A250001890C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "CometChatSample/Pods/cometchat-ui/cometchat-ui/cometchat-ui.framework/Versions/A/Headers/CometChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D0EA48820B21A250001890C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2224D6CD2619C3F21AE30F9 /* Pods-CometChatSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K456T8RD7Z;
+				INFOPLIST_FILE = CometChatSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inscripts.CometChatSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Pods/cometchat-ui/cometchat-ui/cometchat-ui.framework/Versions/A/Headers/CometChat-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"Pods/**",
+					"/Users/adityagokula/Documents/adi/Inscripts/sampleapps/iOS/swift/CometChatSample/CometChatSample/Pods/cometchat-ui/cometchat-ui/cometchat-ui.framework/Versions/A/Headers/CometChat-Bridging-Header.h",
+				);
+			};
+			name = Debug;
+		};
+		1D0EA48920B21A250001890C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11426E8221D1653BCCEAFFD8 /* Pods-CometChatSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K456T8RD7Z;
+				INFOPLIST_FILE = CometChatSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inscripts.CometChatSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Pods/cometchat-ui/cometchat-ui/cometchat-ui.framework/Versions/A/Headers/CometChat-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = (
+					"Pods/**",
+					"/Users/adityagokula/Documents/adi/Inscripts/sampleapps/iOS/swift/CometChatSample/CometChatSample/Pods/cometchat-ui/cometchat-ui/cometchat-ui.framework/Versions/A/Headers/CometChat-Bridging-Header.h",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D0EA47020B21A230001890C /* Build configuration list for PBXProject "CometChatSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0EA48520B21A250001890C /* Debug */,
+				1D0EA48620B21A250001890C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D0EA48720B21A250001890C /* Build configuration list for PBXNativeTarget "CometChatSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0EA48820B21A250001890C /* Debug */,
+				1D0EA48920B21A250001890C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D0EA46D20B21A230001890C /* Project object */;
+}

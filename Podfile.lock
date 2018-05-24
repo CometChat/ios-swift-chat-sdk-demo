@@ -1,0 +1,90 @@
+PODS:
+  - cometchat-ui (7.0.23):
+    - Firebase/Auth
+    - Firebase/Database
+    - MessageSDKFramework
+  - Firebase/Auth (4.8.2):
+    - Firebase/Core
+    - FirebaseAuth (= 4.4.2)
+  - Firebase/Core (4.8.2):
+    - FirebaseAnalytics (= 4.0.9)
+    - FirebaseCore (= 4.0.14)
+  - Firebase/Database (4.8.2):
+    - Firebase/Core
+    - FirebaseDatabase (= 4.1.4)
+  - FirebaseAnalytics (4.0.9):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (4.4.2):
+    - FirebaseAnalytics (~> 4.0)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.14):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDatabase (4.1.4):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (2.0.10):
+    - FirebaseCore (~> 4.0)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
+  - GTMSessionFetcher/Core (1.1.15)
+  - leveldb-library (1.20)
+  - MessageSDKFramework (7.0.23):
+    - Firebase/Auth
+    - Firebase/Database
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+
+DEPENDENCIES:
+  - cometchat-ui
+  - Firebase/Auth (~> 4.8.2)
+  - Firebase/Database (~> 4.8.2)
+  - MessageSDKFramework
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - cometchat-ui
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - leveldb-library
+    - MessageSDKFramework
+    - nanopb
+
+SPEC CHECKSUMS:
+  cometchat-ui: e264e933fad045467648a6113f007e8203a29a6f
+  Firebase: 7d3b8cd837ad9fcd391657734c0d56dab8e9a5a3
+  FirebaseAnalytics: 388b630c15713f5dbf364071f5f3d6077fb52f4e
+  FirebaseAuth: bd2738c5c1e92b108ba5f7f7335908097a4e50bb
+  FirebaseCore: 2e0b98fb2d64ca8140136beff15772bdd14d2dd7
+  FirebaseDatabase: de4446507ccd3257fca37d16f40e1540324571fd
+  FirebaseInstanceID: 8d20d890d65c917f9f7d9950b6e10a760ad34321
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  MessageSDKFramework: c5923a57e94769248d50c69304ebdde512792298
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+
+PODFILE CHECKSUM: 8d30090a9f2e70be95d063a3b8b03e99c2ec74d6
+
+COCOAPODS: 1.5.2
