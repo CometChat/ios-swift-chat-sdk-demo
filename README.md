@@ -2,7 +2,16 @@
 
 CometChat enables you to add voice, video and text chat to your iOS app in minutes! That's not all, CometChat has whiteboard, writeboard, real-time translation and more.
 
-# Quick Start
+# For New Customers
+If you would like to add CometChat to your app, please use CometChat Pro:
+
+Step 1- Signup for CometChat Pro at https://app.cometchat.com
+
+Step 2- View the CometChat Pro documentation at https://prodocs.cometchat.com
+
+# For Existing Customers
+
+## Quick Start
 1. Download the sample swift project from this repository.
 2. Open the `ViewController.swift` file and replace the `CometChat License Key` and `API Key` values.These values can be found the `CometChat Admin Panel`, under the `Settings` -> `API Keys` section
 3. Setup Cocoapods for the project and run the `pod install` command.
